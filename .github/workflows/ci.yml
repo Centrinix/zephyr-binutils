@@ -17,16 +17,16 @@ jobs:
       fail-fast: false
       matrix:
         target:
-        - arc-none-elf
-      # - arc64-none-elf
-        - arm-none-eabi
-        - aarch64-none-elf
-        - mips-none-elf
-        - nios2-none-elf
-        - riscv64-none-elf
-        - sparc-none-elf
-        - x86_64-none-elf
-        - xtensa-none-elf
+        - arc-none-zephyr
+      # - arc64-none-zephyr
+        - arm-none-zephyr
+        - aarch64-none-zephyr
+        - mips-none-zephyr
+        - nios2-none-zephyr
+        - riscv64-none-zephyr
+        - sparc-none-zephyr
+        - x86_64-none-zephyr
+        - xtensa-none-zephyr
 
     steps:
     - name: Print environment information
